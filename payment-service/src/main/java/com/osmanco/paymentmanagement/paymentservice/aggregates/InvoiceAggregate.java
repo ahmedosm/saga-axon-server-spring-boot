@@ -6,8 +6,10 @@ import org.axonframework.modelling.command.AggregateIdentifier;
 import org.axonframework.modelling.command.AggregateLifecycle;
 import org.axonframework.spring.stereotype.Aggregate;
 
-import com.progressivecoder.ecommerce.commands.CreateInvoiceCommand;
-import com.progressivecoder.ecommerce.events.InvoiceCreatedEvent;
+import com.osmanco.ecommerce.commands.CreateInvoiceCommand;
+import com.osmanco.ecommerce.events.InvoiceCreatedEvent;
+
+
 
 @Aggregate
 public class InvoiceAggregate {

@@ -6,8 +6,10 @@ import org.axonframework.modelling.command.AggregateIdentifier;
 import org.axonframework.modelling.command.AggregateLifecycle;
 import org.axonframework.spring.stereotype.Aggregate;
 
-import com.progressivecoder.ecommerce.commands.CreateShippingCommand;
-import com.progressivecoder.ecommerce.events.OrderShippedEvent;
+import com.osmanco.ecommerce.commands.CreateShippingCommand;
+import com.osmanco.ecommerce.events.OrderShippedEvent;
+
+
 
 @Aggregate
 public class ShippingAggregate {

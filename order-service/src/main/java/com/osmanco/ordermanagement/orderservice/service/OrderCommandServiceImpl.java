@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.osmanco.ordermanagement.orderservice.aggregates.OrderStatus;
 import com.osmanco.ordermanagement.orderservice.dto.OrderCreateDTO;
-import com.progressivecoder.ecommerce.commands.CreateOrderCommand;
+import com.osmanco.ecommerce.commands.CreateOrderCommand;
 
 @Service
 public class OrderCommandServiceImpl implements OrderCommandService {

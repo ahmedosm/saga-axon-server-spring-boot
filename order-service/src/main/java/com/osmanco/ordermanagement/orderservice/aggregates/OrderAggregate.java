@@ -8,10 +8,12 @@ import org.axonframework.modelling.command.AggregateIdentifier;
 import org.axonframework.modelling.command.AggregateLifecycle;
 import org.axonframework.spring.stereotype.Aggregate;
 
-import com.progressivecoder.ecommerce.commands.CreateOrderCommand;
-import com.progressivecoder.ecommerce.commands.UpdateOrderStatusCommand;
-import com.progressivecoder.ecommerce.events.OrderCreatedEvent;
-import com.progressivecoder.ecommerce.events.OrderUpdatedEvent;
+import com.osmanco.ecommerce.commands.CreateOrderCommand;
+import com.osmanco.ecommerce.commands.UpdateOrderStatusCommand;
+import com.osmanco.ecommerce.events.OrderCreatedEvent;
+import com.osmanco.ecommerce.events.OrderUpdatedEvent;
+
+
 
 @Aggregate
 public class OrderAggregate {

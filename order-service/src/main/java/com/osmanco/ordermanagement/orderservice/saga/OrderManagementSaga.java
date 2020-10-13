@@ -10,14 +10,15 @@ import org.axonframework.modelling.saga.SagaLifecycle;
 import org.axonframework.modelling.saga.StartSaga;
 import org.axonframework.spring.stereotype.Saga;
 
+import com.osmanco.ecommerce.commands.CreateInvoiceCommand;
+import com.osmanco.ecommerce.commands.CreateShippingCommand;
+import com.osmanco.ecommerce.commands.UpdateOrderStatusCommand;
+import com.osmanco.ecommerce.events.InvoiceCreatedEvent;
+import com.osmanco.ecommerce.events.OrderCreatedEvent;
+import com.osmanco.ecommerce.events.OrderShippedEvent;
+import com.osmanco.ecommerce.events.OrderUpdatedEvent;
 import com.osmanco.ordermanagement.orderservice.aggregates.OrderStatus;
-import com.progressivecoder.ecommerce.commands.CreateInvoiceCommand;
-import com.progressivecoder.ecommerce.commands.CreateShippingCommand;
-import com.progressivecoder.ecommerce.commands.UpdateOrderStatusCommand;
-import com.progressivecoder.ecommerce.events.InvoiceCreatedEvent;
-import com.progressivecoder.ecommerce.events.OrderCreatedEvent;
-import com.progressivecoder.ecommerce.events.OrderShippedEvent;
-import com.progressivecoder.ecommerce.events.OrderUpdatedEvent;
+
 
 @Saga
 public class OrderManagementSaga {
