@@ -126,7 +126,7 @@ graph LR
 
 5. **Deployment to Azure Kubernetes Service (AKS)**: The release pipeline takes the new Docker image and deploys it into the Azure Kubernetes Service. AKS manages the deployment, scaling, and operations of the application within Kubernetes.
 
-## Tools and technolgy used 
+## Tools and technology stack used :
 
 - MongoDB
 - MySQL
