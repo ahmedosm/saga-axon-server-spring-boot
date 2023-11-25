@@ -59,7 +59,7 @@ If the Swift message is not successful, initiate the refund process, transferrin
 
 
  ## API collection 
-[Uploading telr.postman_collection.json…]()
+
 
  
  | Name                  | Method | URL                                                                                                                                                                                                          | Request Headers                               | Request Body                                                                                                                                                                                                                                                     | Response |
