@@ -2,9 +2,11 @@
 **taks requiremtns**
 
  Your task is to develop a backend for a banking platform capable of serving the following functions through APIs:
- 1-Withdraw cash from an account
- 2-  Deposit cash to an account
- 3- Transfer money from one account to another
+ 
+ 1. Withdraw cash from an account.
+ 2. Deposit cash to an account
+ 3. Transfer money from one account to another.
+    
 # Main Component digram 
   there are three microservices 
   
