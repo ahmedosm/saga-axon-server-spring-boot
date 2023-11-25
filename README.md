@@ -31,7 +31,35 @@ If successful, initiate the GL clearance process to withdraw the amount from GL 
 5. Handle Swift Message Failure
 If the Swift message is not successful, initiate the refund process, transferring money from the GL account back to the source account.
 
-**Internal Fund Transfer**
+## Technical solution
+
+**Microservices Architecture for Business Component Segregation and High Availability**
+
+1. Utilizing a microservices architecture to segregate business components ensures a modular and scalable design.
+2. The architecture enhances high availability by allowing independent scaling and deployment of microservices.
+3. Each microservice focuses on a specific business capability, promoting maintainability and flexibility.
+  
+**Geographical Saga Pattern for Fund Transfer Process with Kafka Communication**
+1. Employing the geographical Saga pattern to manage the fund transfer process.
+2. Kafka serves as the communication backbone between microservices, ensuring reliable and asynchronous communication.
+   he Saga pattern helps maintain consistency in distributed transactions across multiple microservices.
+   
+**Event Sourcing for Account State Management and Persistence**
+
+1. Leveraging Event Sourcing to manage the state of accounts.
+2. Events represent state changes, providing a historical record of account transactions.
+3. This approach facilitates auditability, traceability, and rebuilding the account state at any point in time.
+   
+**CQRS (Command Query Responsibility Segregation) for High Availability**
+
+1. Implementing CQRS to segregate the command (write) and query (read) responsibilities.
+2. Enhances high availability by allowing for independent scaling of read and write components.
+3. Write operations and read queries are handled by separate services, optimizing performance and resource utilization.
+
+
+ 
+
+
 
 ## Automated CI/CD Pipeline Process
 
