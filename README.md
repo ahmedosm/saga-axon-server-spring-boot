@@ -59,17 +59,12 @@ If the Swift message is not successful, initiate the refund process, transferrin
 
 ## Recommended and Desirable Enhancements for Transitioning from Task to Microservices Standard
 
-1.Incorporating a Security Layer with OAuth2 and Encryption.
-
-2.Implementing Service Discovery and Circuit Breakers.
-
-3.Adopting an API Gateway.
-
-4.Embracing Service Mesh Architecture.
-
-5.Utilizing Logging Stack, Kibana, and Elasticsearch for efficient search capabilities.
-
-6.Ensuring Comprehensive Test Case Coverage and Implementing Code Quality Gates in the Pipeline.
+1. Incorporating a Security Layer with OAuth2 and Encryption.
+2. Implementing Service Discovery and Circuit Breakers.
+3. Adopting an API Gateway.
+4. Embracing Service Mesh Architecture.
+5. Utilizing Logging Stack, Kibana, and Elasticsearch for efficient search capabilities.
+6. Ensuring Comprehensive Test Case Coverage and Implementing Code Quality Gates in the Pipeline.
 
 These enhancements are suggested for transitioning from a task-oriented approach to a microservices standard, emphasizing security, resilience, scalability, and overall system robustness.
 
