@@ -73,6 +73,15 @@ These enhancements are suggested for transitioning from a task-oriented approach
 
  ## API collection 
 
+**swagger documentation**
+
+1.**Account Management**: http://20.233.77.247/telr/swagger-ui/index.html# 
+
+2.**Account Enquery**:  http://20.233.102.246/telr/swagger-ui/index.html#
+
+3.**Fund transfer**: http://20.233.160.125/telr/swagger-ui/index.html#
+
+**APIS**:
 
  
  | Name                  | Method | URL                                                                                                                                                                                                          | Request Headers                               | Request Body                                                                                                                                                                                                                                                     | Response |
