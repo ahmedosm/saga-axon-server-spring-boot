@@ -35,8 +35,7 @@ sequenceDiagram
     S->>AM: send hold amount mes...
     AM-->>S: send withdrew GL account...
     S-->>AE: send deposit settlement account
-    Note over AE,FT: Solution
-    rect rgb(255, 235, 205)
+   
         Note right of AE: 1- save transaction
         Note right of AE: 2- hold money to GL
         Note right of AE: 3- send money to swift
