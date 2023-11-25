@@ -70,7 +70,17 @@ These enhancements are suggested for transitioning from a task-oriented approach
 
 
 ## Tools and technolgy used 
-1. mysql 2. kafka 3. mongodb 4. mongock 5. flayway 6. azure k8 cluster 7. azure pipeline 
+
+- MongoDB
+- MySQL
+- kafka
+- mongock & flayway
+- Spring-Boot 3.1.5
+- Java 17
+- azure k8 cluster
+- azure pipeline
+
+To run the services it already deployed in azure cloud and you can run services loacal just chage the profile to lacal using "-Dspring.profiles.active=cloud"
 
 
 
