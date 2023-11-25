@@ -136,6 +136,7 @@ graph LR
 - Java 17
 - azure k8 cluster
 - azure pipeline
+- mocking : https://app.wiremock.cloud/mock-apis/ez8jk/stubs/7ba9fe1b-cff5-4682-8964-1b12f1b91779?q=
 
 To run the services it already deployed in azure cloud and you can run services loacal just chage the profile to lacal using "-Dspring.profiles.active=cloud"
 
