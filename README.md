@@ -46,6 +46,7 @@ sequenceDiagram
     end
 ```
 
+
 **External Fund Transfer**
 1. Save Transaction as Initial:
    Save the transaction details as the initial step.
