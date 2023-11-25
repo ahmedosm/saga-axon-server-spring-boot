@@ -59,6 +59,9 @@ If the Swift message is not successful, initiate the refund process, transferrin
 
 
  ## API collection 
+[Uploading telr.postman_collection.json…]()
+
+ 
  | Name                  | Method | URL                                                                                                                                                                                                          | Request Headers                               | Request Body                                                                                                                                                                                                                                                     | Response |
 | --------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | InternalTransfer      | POST   | [http://20.233.160.125/telr/api/v1/transfer/internal](http://20.233.160.125/telr/api/v1/transfer/internal)                                                                                                   | accept: _/_<br>Content-Type: application/json | `json {"amount": 300, "sourceAccountId": "b9b4de2f-6683-489d-9a2d-1a927b06bbe9", "destinationAccountId": "dbe2d4ba-5e1f-48bc-8974-fea18cdb0edd", "beneficiaryName": "Masa Ahmed", "currency": "AED", "fundTransferType": "INTERNAL"}`                            | \-       |
