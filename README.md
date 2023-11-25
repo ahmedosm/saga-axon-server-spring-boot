@@ -129,3 +129,15 @@ graph LR
 4. **Release Pipeline Trigger**: The successful push of the Docker image to the Azure Container Registry automatically triggers the release pipeline in Azure DevOps.
 
 5. **Deployment to Azure Kubernetes Service (AKS)**: The release pipeline takes the new Docker image and deploys it into the Azure Kubernetes Service. AKS manages the deployment, scaling, and operations of the application within Kubernetes.
+
+
+## Reference and resources  
+
+1. https://medium.com/@hugo.oliveira.rocha/what-they-dont-tell-you-about-event-sourcing-6afc23c69e9a
+2. https://martinfowler.com/microservices/
+3. https://docs.axoniq.io/reference-guide/architecture-overview/event-sourcing
+4. https://www.baeldung.com/cs/saga-pattern-microservices
+5. https://www.udemy.com/course/spring-boot-microservices-cqrs-saga-axon-framework/
+   
+   
+
