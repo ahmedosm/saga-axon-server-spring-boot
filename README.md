@@ -2,15 +2,20 @@
 saga pattern axon simple e commerce example
 <img width="502" alt="Screenshot 2023-11-25 at 2 21 00 PM" src="https://github.com/ahmedosm/saga-axon-server-spring-boot/assets/9503646/7150f015-4e1b-4b3c-b748-1d050f5a4573">
 
-# Fund transfer colution 
-1. **External fund transfer**:
-   1. **save transaction as initial
-   2. **triger mony hould event that mean tranfer money internal from source account to our Gl account
-   3. **once the hold Gl amount acknoloment recived  
-   4. **proscess  moeny to swift if it success then send Gl clearnace process which will withdrow amount from GL to swift settlement account
-   5. **if swift message not successeded then initit refund process which will move money from GL account to souce account 
-3. **Internal fund transfer**:
-
+# Fund Transfer Solution
+**External Fund Transfer**
+1. Save Transaction as Initial
+Save the transaction details as the initial step.
+2. Trigger Money Hold Event
+Initiate a money hold event, transferring funds internally from the source account to our GL account.
+3. Receive Hold GL Amount Acknowledgment
+Wait for acknowledgment confirming the successful hold of the GL amount.
+4. Process Money to Swift
+If the hold is successful, proceed to process the money to Swift.
+If successful, initiate the GL clearance process to withdraw the amount from GL to the Swift settlement account.
+5. Handle Swift Message Failure
+If the Swift message is not successful, initiate the refund process, transferring money from the GL account back to the source account.
+**Internal Fund Transfer**
 
 ## Automated CI/CD Pipeline Process
 
