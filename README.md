@@ -69,22 +69,6 @@ If the Swift message is not successful, initiate the refund process, transferrin
 These enhancements are suggested for transitioning from a task-oriented approach to a microservices standard, emphasizing security, resilience, scalability, and overall system robustness.
 
 
-## Tools and technolgy used 
-
-- MongoDB
-- MySQL
-- kafka
-- mongock & flayway
-- Spring-Boot 3.1.5
-- Java 17
-- azure k8 cluster
-- azure pipeline
-
-To run the services it already deployed in azure cloud and you can run services loacal just chage the profile to lacal using "-Dspring.profiles.active=cloud"
-
-
-
-
  ## API collection 
 
 
@@ -129,6 +113,19 @@ graph LR
 4. **Release Pipeline Trigger**: The successful push of the Docker image to the Azure Container Registry automatically triggers the release pipeline in Azure DevOps.
 
 5. **Deployment to Azure Kubernetes Service (AKS)**: The release pipeline takes the new Docker image and deploys it into the Azure Kubernetes Service. AKS manages the deployment, scaling, and operations of the application within Kubernetes.
+
+## Tools and technolgy used 
+
+- MongoDB
+- MySQL
+- kafka
+- mongock & flayway
+- Spring-Boot 3.1.5
+- Java 17
+- azure k8 cluster
+- azure pipeline
+
+To run the services it already deployed in azure cloud and you can run services loacal just chage the profile to lacal using "-Dspring.profiles.active=cloud"
 
 
 ## Reference and resources  
