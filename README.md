@@ -5,10 +5,19 @@
  2-  Deposit cash to an account
  3- Transfer money from one account to another
 # Main Component digram 
+  there are three microservices 
+  
+1.**Account Management**: Responsible for processing operations such as creating accounts, withdrawing cash, and depositing cash.
+
+2.**Account Enquery**: Responsible for handling read operations related to accounts.  
+
+3.**Fund transfer**: Manages fund transfers between accounts, both internal and external, and also maintains transaction history.
 
 <img width="502" alt="Screenshot 2023-11-25 at 2 21 00 PM" src="https://github.com/ahmedosm/saga-axon-server-spring-boot/assets/9503646/7150f015-4e1b-4b3c-b748-1d050f5a4573">
 
 # Fund Transfer Solution
+<img width="787" alt="Screenshot 2023-11-25 at 6 04 26 PM" src="https://github.com/ahmedosm/saga-axon-server-spring-boot/assets/9503646/c8bfcddd-10c1-473f-9360-cc7f7785abd6">
+
 **External Fund Transfer**
 1. Save Transaction as Initial
 Save the transaction details as the initial step.
