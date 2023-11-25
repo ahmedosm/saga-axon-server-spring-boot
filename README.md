@@ -1,7 +1,7 @@
 # Telr Bank acount mangment  
-**taks requiremtns**
+**task Objectives**
 
- Your task is to develop a backend for a banking platform capable of serving the following functions through APIs:
+ to develop a backend for a banking platform capable of serving the following functions through APIs:
  
  1. Withdraw cash from an account.
  2. Deposit cash to an account
