@@ -70,7 +70,7 @@ These enhancements are suggested for transitioning from a task-oriented approach
 
 
 ## Tools and technolgy used 
-1- mysql 2-kafka 3-mongodb 4-mongock 5-flayway 6-augure k8 cluster 7-agure pipeline 
+1. mysql 2. kafka 3. mongodb 4. mongock 5. flayway 6. azure k8 cluster 7. azure pipeline 
 
 
 
