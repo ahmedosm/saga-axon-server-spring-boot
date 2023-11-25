@@ -1,5 +1,11 @@
-# saga-axon-server-spring-boot
-saga pattern axon simple e commerce example
+# Terl Bank acount mangment system 
+**taks requiremtns**
+ Your task is to develop a backend for a banking platform capable of serving the following functions through APIs:
+ 1-Withdraw cash from an account
+ 2-  Deposit cash to an account
+ 3- Transfer money from one account to another
+# Main Component digram 
+
 <img width="502" alt="Screenshot 2023-11-25 at 2 21 00 PM" src="https://github.com/ahmedosm/saga-axon-server-spring-boot/assets/9503646/7150f015-4e1b-4b3c-b748-1d050f5a4573">
 
 # Fund Transfer Solution
