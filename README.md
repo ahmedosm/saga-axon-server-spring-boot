@@ -4,11 +4,11 @@ saga pattern axon simple e commerce example
 
 # Fund transfer colution 
 1. **External fund transfer**:
-   -save transaction as initial
-   -triger mony hould event that mean tranfer money internal from source account to our Gl account
-   -once the hold Gl amount acknoloment recived  
-   -proscess  moeny to swift if it success then send Gl clearnace process which will withdrow amount from GL to swift settlement account
-   -if swift message not successeded then initit refund process which will move money from GL account to souce account 
+   1. **save transaction as initial
+   2. **triger mony hould event that mean tranfer money internal from source account to our Gl account
+   3. **once the hold Gl amount acknoloment recived  
+   4. **proscess  moeny to swift if it success then send Gl clearnace process which will withdrow amount from GL to swift settlement account
+   5. **if swift message not successeded then initit refund process which will move money from GL account to souce account 
 3. **Internal fund transfer**:
 
 
