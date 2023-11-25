@@ -1,4 +1,4 @@
-# Telr Bank acount mangment system 
+# Telr Bank acount mangment  
 **taks requiremtns**
 
  Your task is to develop a backend for a banking platform capable of serving the following functions through APIs:
@@ -56,6 +56,23 @@ If the Swift message is not successful, initiate the refund process, transferrin
 1. Implementing CQRS to segregate the command (write) and query (read) responsibilities.
 2. Enhances high availability by allowing for independent scaling of read and write components.
 3. Write operations and read queries are handled by separate services, optimizing performance and resource utilization.
+
+## Recommended and Desirable Enhancements for Transitioning from Task to Microservices Standard
+
+1.Incorporating a Security Layer with OAuth2 and Encryption.
+2.Implementing Service Discovery and Circuit Breakers
+3.Adopting an API Gateway
+4.Embracing Service Mesh Architecture
+5.Utilizing Logging Stack, Kibana, and Elasticsearch for efficient search capabilities
+6.Ensuring Comprehensive Test Case Coverage and Implementing Code Quality Gates in the Pipeline.
+
+These enhancements are suggested for transitioning from a task-oriented approach to a microservices standard, emphasizing security, resilience, scalability, and overall system robustness.
+
+
+## Tools and technolgy used 
+1- mysql 2-kafka 3-mongodb 4-mongock 5-flayway 6-augure k8 cluster 7-agure pipeline 
+
+
 
 
  ## API collection 
