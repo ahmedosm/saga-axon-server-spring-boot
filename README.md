@@ -21,6 +21,31 @@
 # Fund Transfer Solution
 <img width="787" alt="Screenshot 2023-11-25 at 6 04 26 PM" src="https://github.com/ahmedosm/saga-axon-server-spring-boot/assets/9503646/c8bfcddd-10c1-473f-9360-cc7f7785abd6">
 
+```mermaid
+sequenceDiagram
+    participant FT as FundTransfer
+    participant AM as Account Mngmnt
+    participant S as Swift
+    participant AE as Account Enquiry
+
+    FT->>AM: Hold Amount to GL account
+    AM-->>FT: Ack
+    FT->>S: send swift message
+    Note right of S: send GL Clearance
+    S->>AM: send hold amount mes...
+    AM-->>S: send withdrew GL account...
+    S-->>AE: send deposit settlement account
+    Note over AE,FT: Solution
+    rect rgb(255, 235, 205)
+        Note right of AE: 1- save transaction
+        Note right of AE: 2- hold money to GL
+        Note right of AE: 3- send money to swift
+        Note right of AE: 4- release money from GL
+        Note right of AE: 5- deposit money to swift settlement account
+        Note right of AE: 6- update transaction status
+    end
+```
+
 **External Fund Transfer**
 1. Save Transaction as Initial:
    Save the transaction details as the initial step.
