@@ -22,17 +22,17 @@
 <img width="787" alt="Screenshot 2023-11-25 at 6 04 26 PM" src="https://github.com/ahmedosm/saga-axon-server-spring-boot/assets/9503646/c8bfcddd-10c1-473f-9360-cc7f7785abd6">
 
 **External Fund Transfer**
-1. Save Transaction as Initial
-Save the transaction details as the initial step.
-2. Trigger Money Hold Event
-Initiate a money hold event, transferring funds internally from the source account to our GL account.
-3. Receive Hold GL Amount Acknowledgment
-Wait for acknowledgment confirming the successful hold of the GL amount.
-4. Process Money to Swift
-If the hold is successful, proceed to process the money to Swift.
-If successful, initiate the GL clearance process to withdraw the amount from GL to the Swift settlement account.
-5. Handle Swift Message Failure
-If the Swift message is not successful, initiate the refund process, transferring money from the GL account back to the source account.
+1. Save Transaction as Initial:
+   Save the transaction details as the initial step.
+3. Trigger Money Hold Event :
+   Initiate a money hold event, transferring funds internally from the source account to our GL account.
+5. Receive Hold GL Amount Acknowledgment:
+    Wait for acknowledgment confirming the successful hold of the GL amount.
+7. Process Money to Swift:
+   If the hold is successful, proceed to process the money to Swift.
+   If successful, initiate the GL clearance process to withdraw the amount from GL to the Swift settlement account.
+9. Handle Swift Message Failure:
+   If the Swift message is not successful, initiate the refund process, transferring money from the GL account back to the source account.
 
 ## Technical solution
 
