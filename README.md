@@ -15,6 +15,7 @@ If the hold is successful, proceed to process the money to Swift.
 If successful, initiate the GL clearance process to withdraw the amount from GL to the Swift settlement account.
 5. Handle Swift Message Failure
 If the Swift message is not successful, initiate the refund process, transferring money from the GL account back to the source account.
+
 **Internal Fund Transfer**
 
 ## Automated CI/CD Pipeline Process
